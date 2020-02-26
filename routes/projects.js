@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const { projects } = require('./data.json'); // JSON data object
+const { projects } = require('../data.json'); // JSON data object
 
 router.get('/', (req, res) => {
     res.redirect('../'); // just redirect to the index
