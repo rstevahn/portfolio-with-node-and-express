@@ -6,7 +6,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://rstevahn.com/portfolio/quotes",
             "github_link": "https://github.com/rstevahn/Random-Quote-Generator",
-            "image_urls": ["../images/quotes-950.png", "../images/quotes2-1150x528.png"]
+            "image_urls": ["/static/images/quotes-950.png", "/static/images/quotes2-1150x528.png"]
          },
          {  "id": "2",
             "project_name": "Searchable Student Directory",
@@ -14,7 +14,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://rstevahn.com/portfolio/students",
             "github_link": "https://github.com/rstevahn/Searchable-Student-Directory",
-            "image_urls": ["../images/students-700.png", "../images/students2-1100x505.png", "../images/students3-1100x505.png"]
+            "image_urls": ["/static/images/students-700.png", "/static/images/students2-1100x505.png", "/static/images/students3-1100x505.png"]
          },
          {  "id": "3",
             "project_name": "Interactive Form",
@@ -22,7 +22,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://rstevahn.com/portfolio/form",
             "github_link": "https://github.com/rstevahn/Interactive-Form",
-            "image_urls": ["../images/form-948.png", "../images/form2-1100x505.png", "../images/form3-1100x505.png"]
+            "image_urls": ["/static/images/form-948.png", "/static/images/form2-1100x505.png", "/static/images/form3-1100x505.png"]
          },
          {  "id": "4",
             "project_name": "Phrase Hunter Game",
@@ -30,7 +30,7 @@
             "technologies": ["HTML", "CSS", "Object-Oriented JavaScript"],
             "live_link": "https://rstevahn.com/portfolio/phrases",
             "github_link": "https://github.com/rstevahn/phrase-hunter-game",
-            "image_urls": ["../images/phrase-600.png", "../images/phrase2-1800x825.png", "../images/phrase3-1100x505.png"]
+            "image_urls": ["/static/images/phrase-600.png", "/static/images/phrase2-1800x825.png", "/static/images/phrase3-1100x505.png"]
          },
          {  "id": "5",
             "project_name": "Searchable Employee Directory",
@@ -38,6 +38,6 @@
             "technologies": ["HTML", "CSS", "JavaScript", "JSON", "AJAX/Fetch"],
             "live_link": "https://rstevahn.com/profile/employees",
             "github_link": "https://github.com/rstevahn/Employee-Directory",
-            "image_urls": ["../images/employees-885.png", "../images/employees2-1200x550.png", "../images/employees3-1200x550.png"]
+            "image_urls": ["/static/images/employees-885.png", "/static/images/employees2-1200x550.png", "/static/images/employees3-1200x550.png"]
          }]
 }

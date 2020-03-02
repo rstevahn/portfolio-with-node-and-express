@@ -9,10 +9,10 @@ block content
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
-        | This is a portfolio of my JavaScript projects. Currently these are all projects that I've completed
-        | as part of the Treehouse (teamtreehouse.com) Full Stack JavaScript Techdegree program. I'm completing
-        | this program to freshen my coding skills after a 12-year coding vacation, and I'm having a great
-        | time!
+        | This is a portfolio of the JavaScript projects I've completed
+        | as part of the Treehouse (teamtreehouse.com) Full Stack JavaScript Techdegree program.
+        | The page you're looking at now is the sixth project, and is the first server-side project, 
+        | utilizing Node.js, Express and Pug.
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
@@ -26,7 +26,7 @@ block content
         //- Here's what the Pug for each project example should look like. 
 
         .cell
-          a(href='#{project.id}')
-            img.thumbnail(src='#{project.image_urls[0]}')
+          a(href=`projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`)
             h5= project.project_name
       

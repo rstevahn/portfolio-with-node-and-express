@@ -32,6 +32,6 @@ block content
     //- interpolation to dynamically add three project images.  You only have to add one image.  
     //- But adding more images to show your app in different states demonstrates a level of thoroughness and 
     //- professionalism that potential employers will like to see. 
-    - var n = 1;
-    while n++ < ${project.image_urls.length}
-      img.image(src=${project.image_urls[n-1]} width='1200' height='550')
+    - var n = 0;
+    while n++ < image_urls.length
+      img.image(src=`${image_urls[n-1]}` width='1200' height='550')

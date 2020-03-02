@@ -20,10 +20,10 @@ app.use('/about', aboutRoute); // our about page
 app.use('/projects', projectsRoute); // if they try to go directly to the portfolio
 
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
-    app.render('error', err);
-    next(err);
+    const errNotFound = new Error('Not Found');
+    errNotFound.status = 404;
+    app.render('error', errNotFound);
+    // next(errNotFound);
   });  
 
 app.use((err, req, res, next) => {
