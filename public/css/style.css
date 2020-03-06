@@ -1,10 +1,14 @@
 
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+p{
   font-family: 'Merriweather', serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -19,7 +23,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: #555;
   }
 
 .round{
@@ -27,7 +31,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #555;
+}
+
+.text-lighter{
+  color: #888
 }
 
 .button{
@@ -43,7 +51,11 @@ a{
 }
 
 a:hover{
-  color: #111;
+  color: #999;
+}
+
+a:visited{
+  color: #666
 }
 
 .image{
@@ -58,7 +70,7 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #007766;
   color: #fff;
   box-shadow: none !important;
 }
@@ -69,9 +81,9 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #333;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -147,4 +159,20 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.off-canvas-content{
+  background: #399
+}
+
+div.cell a img{
+  transition-duration: .5s;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.5, -0.5, 0.5, 1.5);
+
+}
+
+div.cell a img:hover{
+  transform-origin: center bottom;
+  transform: scale(1.2);
 }

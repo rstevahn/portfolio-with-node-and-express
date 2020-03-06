@@ -1,9 +1,9 @@
 extends layout
 
 block content
-  section.desk
-    h1= `${error.message} - Status: ${error.status}`
-    a.button-primary-small(href='/') Go Home
-    .paper
-      pre.stack-trace= error.stack
-    .tear
+  article.grid-container.portfolio-intro
+    div
+      h1= `Error: ${error.message}`
+      h2= `Status: ${error.status}`
+      p.lead.text-light= error.stack
+      a.button(href='/') Home
