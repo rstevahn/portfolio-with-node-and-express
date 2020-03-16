@@ -42,6 +42,6 @@ app.use((err, req, res, next) => {
 
 // finally, listen on our port
 
-app.listen(3000, () => {
-    console.log('The portfolio application is running on localhost:3000!');
+app.listen(443, () => {
+    console.log('The portfolio application is running on port 443');
 });

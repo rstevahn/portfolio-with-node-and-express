@@ -4,27 +4,16 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
       h1 My JavaScript Portfolio
 
-      //- Add a description for your portfolio, what this project is, its purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
         | This is a portfolio of the JavaScript projects I've completed
         | as part of the #[a(href="https://teamtreehouse.com") Treehouse] Full Stack JavaScript Techdegree program.
         | The page you're looking at now is the sixth project, and is the first server-side project, 
         | utilizing Node.js, Express and Pug.
-  article.grid-container.portfolio-index
-    
+  article.grid-container.portfolio-index    
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-
-      //- Use the Pug `each` iterator to create a project img, title and link 
-      //- in the markup for each of the projects you are showcasing.  
       each project in projects
-        //- Use a combination of interpolation and template literals as needed to dynamically 
-        //- generate the routes in the href, as well as the img's src and the projects title.
-        
-        //- Here's what the Pug for each project example should look like. 
-
         .cell
           a(href=`projects/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}`)

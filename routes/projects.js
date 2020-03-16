@@ -8,6 +8,13 @@ router.get('/', (req, res) => {
     res.redirect('../'); // just redirect to the index
 });
 
+router.get('/employees', (req, res) => {
+    res.sendFile('index.html', { root: path.join(__dirname, '../public_api_request')});
+
+});
+
+
+
 router.get('/:id', (req, res) => {
     const { id } = req.params;
     if (id > 0 && id <= projects.length) {
