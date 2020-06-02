@@ -31,6 +31,7 @@ app.use((req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
     console.log('404 Error: Page Not Found');
+    console.log(req.originalUrl);
     res.render('error');
 });  
 

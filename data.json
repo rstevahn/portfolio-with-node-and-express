@@ -4,7 +4,7 @@
             "project_name": "Random Quote Generator",
             "description": "A random quote generator with #tags",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://rstevahn.com/portfolio/quotes",
+            "live_link": "https://rstevahn.github.io/Random-Quote-Generator",
             "github_link": "https://github.com/rstevahn/Random-Quote-Generator",
             "image_urls": ["/static/images/quotes-950.png", "/static/images/quotes2-1150x528.png"]
          },
@@ -12,7 +12,7 @@
             "project_name": "Searchable Student Directory",
             "description": "A searchable, paginated student directory created using unobtrusive JavaScript.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://rstevahn.com/portfolio/students",
+            "live_link": "https://rstevahn.github.io/Searchable-Student-Directory",
             "github_link": "https://github.com/rstevahn/Searchable-Student-Directory",
             "image_urls": ["/static/images/students-700.png", "/static/images/students2-1100x505.png", "/static/images/students3-1100x505.png"]
          },
@@ -20,7 +20,7 @@
             "project_name": "Interactive Form",
             "description": "An interactive form with dynamic validation, created using unobtrusive JavaScript",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://rstevahn.com/portfolio/form",
+            "live_link": "https://rstevahn.github.io/Interactive-Form",
             "github_link": "https://github.com/rstevahn/Interactive-Form",
             "image_urls": ["/static/images/form-948.png", "/static/images/form2-1100x505.png", "/static/images/form3-1100x505.png"]
          },
@@ -28,7 +28,7 @@
             "project_name": "Phrase Hunter Game",
             "description": "An object-oriented hangman-like game",
             "technologies": ["HTML", "CSS", "Object-Oriented JavaScript"],
-            "live_link": "https://rstevahn.com/portfolio/phrases",
+            "live_link": "https://rstevahn.github.io/phrase-hunter-game",
             "github_link": "https://github.com/rstevahn/phrase-hunter-game",
             "image_urls": ["/static/images/phrase-600.png", "/static/images/phrase2-1800x825.png", "/static/images/phrase3-1100x505.png"]
          },
@@ -36,8 +36,40 @@
             "project_name": "Searchable Employee Directory",
             "description": "A searchable employee directory. Data is retrieved from an extenal web site using the JavaScript Fetch interface.",
             "technologies": ["HTML", "CSS", "JavaScript", "JSON", "AJAX/Fetch"],
-            "live_link": "https://rstevahn.com/profile/employees",
+            "live_link": "https://rstevahn.github.io/Employee-Directory",
             "github_link": "https://github.com/rstevahn/Employee-Directory",
             "image_urls": ["/static/images/employees-885.png", "/static/images/employees2-1200x550.png", "/static/images/employees3-1200x550.png"]
+         },
+         {  "id": "6",
+            "project_name": "Project Portfolio",
+            "description": "The project you are viewing now!",
+            "technologies": ["HTML", "CSS", "JavaScript", "node.js", "Express", "PUG"],
+            "live_link": "https://rstevahn-portfolio.netlify.app",
+            "github_link": "https://github.com/rstevahn/portfolio-with-node-and-express",
+            "image_urls": ["/static/images/portfolio-1000.png", "/static/images/portfolio2-1000x625.png", "/static/images/portfolio3-1000x1050.png"]
+         },
+         {  "id": "7",
+            "project_name": "Flickr Image Search App",
+            "description": "This app uses Flickr's REST API to retrieve photos based on the user's search term",
+            "technologies": ["HTML", "CSS", "JavaScript", "React", "React Router", "JSX", "Axios"],
+            "live_link": "https://rstevahn-flickr-search.netlify.app",
+            "github_link": "https://github.com/rstevahn/ReactImageGallery",
+            "image_urls": ["/static/images/flickr-650.png", "/static/images/flickr2-1075x935.png"]
+         },
+         {  "id": "8",
+            "project_name": "Library Management App",
+            "description": "A basic library management system. Create, Read, Update & Delete books",
+            "technologies": ["HTML", "CSS", "JavaScript", "node.js", "Express", "PUG", "Sequelize"],
+            "live_link": "https://github.com/rstevahn/SQLiteLibraryManager",
+            "github_link": "https://github.com/rstevahn/SQLiteLibraryManager",
+            "image_urls": ["/static/images/library-650.png", "/static/images/library2-700x450.png", "/static/images/library3-750x500.png"]
+         },
+         {  "id": "9",
+            "project_name": "Course Catalog REST API",
+            "description": "A course catalog API. Create, Read, Update & Delete users and courses",
+            "technologies": ["JavaScript", "node.js", "Express", "Express Validator", "Sequelize", "bcryptjs"],
+            "live_link": "https://github.com/rstevahn/course-catalog-rest-api",
+            "github_link": "https://github.com/rstevahn/course-catalog-rest-api",
+            "image_urls": ["/static/images/rest-750.png"]
          }]
 }

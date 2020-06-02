@@ -1,5 +1,7 @@
 # Portfolio using Node and Express
-### Project 6, Treehouse Full Stack JavaScript Techdegree
+## Treehouse Full Stack JavaScript Techdegree Unit 6
+
+This project was graded **Exceeds Expectations**.
 
 Extra Credit features included:
 - package.json has been configured with a start script
@@ -9,3 +11,5 @@ Extra Credit features included:
 This project uses node.js, Express and Pug to serve up a portfolio of each of my JavaScript projects
 to date. It includes an index page, an about page, and dynamically generated project pages for each
 of the projects.
+
+[See this project in action!](https://rstevahn-portfolio.netlify.app)
