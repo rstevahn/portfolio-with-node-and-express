@@ -12,4 +12,4 @@ This project uses node.js, Express and Pug to serve up a portfolio of each of my
 to date. It includes an index page, an about page, and dynamically generated project pages for each
 of the projects.
 
-[See this project in action!](https://rstevahn-portfolio-with-node-and-exoress.netlify.app)
+[See this project in action!](https://rstevahn-portfolio.netlify.app)
