@@ -2,11 +2,13 @@
  * Project 6 - client-server Portfolio built using JavaScript, node.js and express
  * app.js */
 
-/*jshint esversion: 6 */
+/* jshint esversion: 6 */
+/* jshint node: true */
 
 // Dependencies
 
 const express = require('express'); // Express
+const serverless = require('serverless-http'); // serverless HTTP
 const indexRoute = require('./routes'); // our root router (./routes/index.js)
 const aboutRoute = require('./routes/about'); // our about page router
 const projectsRoute = require('./routes/projects'); // portfolio redirect
@@ -19,9 +21,9 @@ app.use('/static', express.static('public')); // serve our static content
 
 app.set('view engine', 'pug'); // we'll be using pug templates
 
-app.use(indexRoute); // set up our root route
-app.use('/about', aboutRoute); // our about page
-app.use('/projects', projectsRoute); // if they try to go directly to the portfolio
+app.use('/.netlify/functions/api', indexRoute); // set up our root route
+app.use('/.netlify/functions/api/about', aboutRoute); // our about page
+app.use('/.netlify/functions/api/projects', projectsRoute); // if they try to go directly to the portfolio
 
 // error handlers
 
@@ -43,6 +45,9 @@ app.use((err, req, res, next) => {
 
 // finally, listen on our port
 
-app.listen(443, () => {
-    console.log('The portfolio application is running on port 443');
+app.listen(3000, () => {
+    console.log('The portfolio application is listening on port 3000');
 });
+
+module.exports = app;
+module.exports.handler = serverless(app);
